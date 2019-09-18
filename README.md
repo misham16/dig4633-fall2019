@@ -1,6 +1,6 @@
 # dig4633-fall2019
-Template for course repository
+Current Task Idea: 
 
-As you complete each lab, you should provide a description of your features and changes here.
+Have the player go on a search/complete a puzzle to retrieve the scarecrow's hat
 
-## VR Lab: TITLE HERE
+## VR Lab: 1
