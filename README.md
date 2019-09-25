@@ -1,6 +1,6 @@
 # dig4633-fall2019
-Template for course repository
+Current Task Idea: 
 
-As you complete each lab, you should provide a description of your features and changes here.
+Have the player go chop down a tree, and collect the fruit to feed animals
 
-## VR Lab: TITLE HERE
+## VR Lab: 1
