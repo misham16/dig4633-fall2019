@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gameController : MonoBehaviour
 {
@@ -9,15 +10,11 @@ public class gameController : MonoBehaviour
 
     public void ChickenHappy () 
     {
-        if()
+        if (chickenHat == true)
         {
+            this.cHat.SetActive(true);
             Debug.Log("Chicken is Happy");
         }
-    }
-
-    void HatRestored()
-    {
-        cHat.SetActive(true);
     }
     void Start()
     {
@@ -27,6 +24,9 @@ public class gameController : MonoBehaviour
     
     void Update()
     {
-        
+        if (Input.GetKey (KeyCode.Alpha9))
+        {
+            SceneManager.LoadScene("fade");
+        }
     }
 }
